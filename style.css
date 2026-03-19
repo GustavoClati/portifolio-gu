@@ -53,6 +53,10 @@
 html {
   scroll-behavior: smooth;
   font-size: 17px;
+  scrollbar-width: none; /* Firefox */
+}
+html::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
 }
 
 body {
